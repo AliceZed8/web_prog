@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!-- Вариант 4-->
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Выбор языков программирования</title>
+
+        <style>
+            
+            h1 {
+                text-align: center;
+            }
+
+            form {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+    
+            select {
+                width: 100%;
+                padding: 8px;
+                border-radius: 4px;
+                height: 100px;
+            }
+
+            input {
+                margin: auto;
+                border-radius: 5px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Форма</h1>
+        <form action="/form.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Фамилия:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="age" max="120", min="18"><br>
+            <label for="lang">Укажите языки программирования, которые знаете:</label>
+            <select id="lang" name="languages" multiple>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="C/C++">C/C++</option>
+                <option value="C#">C#</option>
+                <option value="Rust">Rust</option>
+                <option value="Java">Java</option>
+                <option value="Dart">Dart</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Haskell">Haskell</option>
+                <option value="Kotlin">Kotlin</option>
+                <option value="Swift">Swift</option>
+                <option value="Lua">Lua</option>
+            </select><br>
+            <input type="submit" value="Отправить форму">
+        </form>
+
+
+        
+    </body>
+</html>
