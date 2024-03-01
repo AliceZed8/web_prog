@@ -54,3 +54,18 @@ printf("#12 pow\n");
 echo "8^2 = ". 8**2 . "\n\n";
 
 //#######################################################
+
+// #13 assignment operators
+printf("#13 assignment operators\n");
+
+$my_num = 0;
+$answer = $my_num;
+$answer += 2;
+$answer *= 2;
+$answer -= 2;
+$answer /= 2;
+$answer -= $my_num;
+
+echo '$answer = '. $answer . "\n\n";
+
+//#######################################################
