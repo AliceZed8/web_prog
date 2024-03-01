@@ -177,3 +177,18 @@ if ($sum <= 10) {
 }
 
 //###########################################################################
+
+// #15 functions
+printf("#15  functions\n");
+
+function printStringReturnNumber() : int {
+    echo "Hello, World!\n";
+
+    return 1;
+}
+
+$my_num = printStringReturnNumber();
+
+echo $my_num."\n\n";
+
+//###########################################################
