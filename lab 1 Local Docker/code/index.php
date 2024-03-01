@@ -36,3 +36,14 @@ $this_month = 1089.98;
 echo "Diff ". $last_month - $this_month."\n\n";
 
 //#######################################################
+
+// #11 multiplication and division
+printf("#11 multiplication and division\n");
+
+$num_languages = 4;
+$months = 11;
+$days = $months * 16;
+$days_per_language = $days / $num_languages;
+echo $days_per_language."\n\n";
+
+//#######################################################
