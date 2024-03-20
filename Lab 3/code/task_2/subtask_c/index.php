@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subtask B</title>
+    <title>Subtask C</title>
 </head>
 
 <body>
-    <form method="post" action = "save_user.php">
-        Фамилия: <input type="text" name="last_name"><br>
-        Имя: <input type="text" name="first_name"><br>
+    <form method="post" action = "save_user_data.php">
+        Имя: <input type="text" name="name"><br>
+        Фамилия: <input type="text" name="fname"><br>
         Возраст: <input type="number" name="age" max = "150"><br>
+        Зарплата: <input type="number" name="salary"><br>
         <input type="submit" value="Сохранить">
     </form>
+
 </body>
 </html>
