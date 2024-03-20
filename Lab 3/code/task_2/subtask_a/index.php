@@ -7,9 +7,9 @@
 </head>
 <body>
 
-    <form id="wordCharacterForm" method="post">
-        <label for="textArea">Введите текст:</label><br>            <!-- Возвращаем тект в текстареа  -->
-        <textarea id="textArea" name="text" rows="4" cols="50"><?php echo isset($_POST['text']) ? $_POST['text'] : "";?></textarea><br><br>
+    <form method="post">
+        <label>Введите текст:</label><br>            <!-- Возвращаем тект в текстареа  -->
+        <textarea name="text" rows="4" cols="50"><?php echo isset($_POST['text']) ? $_POST['text'] : "";?></textarea><br><br>
         <input type="submit" value="Посчтитать кол-во символов и слов">
     </form>
     
